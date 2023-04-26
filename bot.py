@@ -2,12 +2,12 @@ availabilityDomains = ["XQsI:AP-SINGAPORE-1-AD-1"]
 displayName = 'MC Server'
 compartmentId = 'ocid1.tenancy.oc1..aaaaaaaatqnudrrln2m5b27r6xb7j4g4ffnnaq63lpssdu76w62q45vvl66a'
 imageId = "ocid1.image.oc1.ap-singapore-1.aaaaaaaaiscxijsqk752kh3yxi26mbzruyvszxy6cbmkn34oixgfwa2miaaq"
-subnetId = 'ocid1.subnet.oc1.ap-singapore-1.aaaaaaaanozlnqfecf5bvuoe6hungdclctlz6qp3qjjuyvfp5qit7iotdn2a'
-ssh_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5BDrAx3g2PUx4fTs5PmVRmeHnKKcPRgn5DvoXdp09i3NGRBWWvY1N/VAeweQLo1xjfTD6tEwEDHmz/NvhtbEZADvUkkTah2LdJSxoFmd2OhHvTAUQzJOrWAuhKoRMgqJivNmY7XplqgkfFZ77nNvXJSk+hnl7+YI1EYldCuZX0hyAfxGPH+6G4/bUrq071N8uLzkGsm4kFVbmtEfdm2OQKUTqbHQNgDjEBuY/zHo5mMgu5eK1Y6E7Qja/RbchMapv7wkt3Vci/fesxzlmsTfCKB/R12kbo7V7KTruo8BwnLdM6xDV9ukAsEseXA9q9Ub8eZgkUolltXYIWwyMRPxT ssh-key-2023-04-26"
+subnetId = 'ocid1.subnet.oc1.ap-singapore-1.aaaaaaaadjsvps3cyg2wm2lopphx6dron7ey46skptiriyslx2574icg4e6a'
+ssh_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1IH87aJQXOz+1Sfn3Wf4oN0gaFgMTCo8vHV/L1hs3W9hTJ7AnifcKBQUA1/KYn1U9RpGGXMUe/ElwHzr6VzHsm5mhrGrOrHEqZtFIwldCGZEv+IrXs1jx+NMbInx9KOv2setqht3p7mtyidNGr6EAVrk6JN7iAh8n0Mh7Lm9WESThopMbL1i3AAqGwRhuQ4tHD/BmRRvg5mm+l0/48iqfUXm/2lFYQ47hK6Pj98nuVyLlU/wQiY/0qh+27lrS3PC+8fDTDhSLf0v45TXZFGvPpUS8ORhdrki82GJHr75MvYVGXUwenij/O1V0EtUcOyATt6A2tjkJdzWE65kbtXt9 rsa-key-20230426"
 
 ocpus = 4
 memory_in_gbs = 24
-wait_s_for_retry = 10
+wait_s_for_retry = 15
 
 import oci
 import logging
